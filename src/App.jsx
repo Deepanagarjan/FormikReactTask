@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Dashboard from "./components/Dashboard";
-import Sidebar from "./components/Sidebar";
+import Dashboard from "./Components/Dashboard";
+import Sidebar from "./Components/Sidebar";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Adduser from "./components/AddUser";
-import Edituser from "./components/EditUser";
+import Adduser from "./Components/Adduser";
+import Edituser from "./Components/Edituser";
 
 function App() {
   return (
