@@ -1,11 +1,11 @@
 :root {
-  --blue: #4e73df;
+  --blue: #c54edf;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #e74a3b;
   --orange: #fd7e14;
-  --yellow: #f6c23e;
+  --yellow: #feb908;
   --green: #1cc88a;
   --teal: #20c9a6;
   --cyan: #36b9cc;
@@ -62,7 +62,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #858796;
+  color: #73a47c;
   text-align: left;
   background-color: #fff;
 }
@@ -192,7 +192,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #858796;
+  color: #968985;
   text-align: left;
   caption-side: bottom;
 }
@@ -445,7 +445,7 @@ mark {
 }
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #ea1429;
   word-wrap: break-word;
 }
 a > code {
