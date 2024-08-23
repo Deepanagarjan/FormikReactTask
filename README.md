@@ -18,8 +18,8 @@ Using Formik:
 ![Sample Image](./src/assets/formik%20sc.png)
 
 ## Deployment
-link:http://localhost:5173/
-The application is deployed and can be accessed here : [Blog App](https://react-router-domtask.netlify.app/).
+link:http://localhost:5174/
+The application is deployed and can be accessed here : [Blog App](https://formik-react-library.netlify.app/).
 I learned to use Formik third party library for form validation. I used it in 2 different ways like using Formik Tag and also using useFormik Hook.
 Using Yup:
 
