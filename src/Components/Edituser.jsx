@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useNavigate, useParams } from "react-router-dom";
-import AxiosService from "../utils/ApiService";
+import AxiosService from "../utils/Apiservice";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
@@ -186,7 +186,7 @@ function Edituser() {
                   justifyContent: "center",
                 }}
               >
-                📗Author's Details 👴👵
+                📗Author Details 👴👵
               </Form.Label>
               <Form.Control
                 style={{ textAlign: "center" }}

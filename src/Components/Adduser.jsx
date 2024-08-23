@@ -1,9 +1,9 @@
-import React from "react";
+// import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import AxiosService from "../utils/ApiService";
+import AxiosService from "../utils/Apiservice";
 import { useNavigate } from "react-router-dom";
 
 function Adduser() {
@@ -38,7 +38,7 @@ function Adduser() {
         Publication_Date: Yup.date()
           .required("Publication Date is required")
           .nullable()
-          .transform((originalValue, originalObject) => {
+          .transform((originalValue) => {
             const parsedDate = new Date(originalValue);
             return isNaN(parsedDate) ? null : parsedDate;
           })
@@ -49,7 +49,7 @@ function Adduser() {
         Birth_Date: Yup.date()
           .required("Date of birth is required")
           .nullable()
-          .transform((originalValue, originalObject) => {
+          .transform((originalValue) => {
             const parsedDate = new Date(originalValue);
             return isNaN(parsedDate) ? null : parsedDate;
           })
@@ -65,7 +65,7 @@ function Adduser() {
           navigate("/dashboard");
         }
       } catch (error) {
-        // console.error(error);
+        console.error(error);
       }
     },
   });
@@ -171,7 +171,7 @@ function Adduser() {
                   justifyContent: "center",
                 }}
               >
-                📗Author's Details 👴👵
+                📗Author Details 👴👵
               </Form.Label>
               <Form.Control
                 type="text"

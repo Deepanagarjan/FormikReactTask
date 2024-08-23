@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Card from "./Card";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
@@ -141,7 +141,7 @@ function Dashboard() {
                   whiteSpace: "nowrap",
                 }}
               >
-                Author's Details
+                Author Details
               </h2>
               <Table striped bordered hover>
                 <thead>
