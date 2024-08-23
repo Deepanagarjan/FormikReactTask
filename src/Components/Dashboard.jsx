@@ -3,7 +3,7 @@ import Card from "./Card";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
-import AxiosService from "../utils/ApiService";
+import AxiosService from "../utils/Apiservice";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Dashboard() {
